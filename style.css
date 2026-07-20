@@ -1,6 +1,87 @@
-/* 24 Frames Management Website */
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    font-family:Georgia, serif;
+}
 
-body {
-    margin: 0;
-    font-family: Georgia, "Times New Roman", serif;
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 60px;
+    background:black;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:30px;
+}
+
+.hero{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+    background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero-content{
+    max-width:700px;
+}
+
+.hero h1{
+    font-size:58px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    line-height:1.6;
+}
+
+.button{
+    display:inline-block;
+    margin-top:35px;
+    padding:16px 38px;
+    background:#b28a3c;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.about{
+    max-width:900px;
+    margin:auto;
+    padding:80px 30px;
+    text-align:center;
+}
+
+.about h2{
+    font-size:42px;
+}
+
+.about p{
+    font-size:20px;
+    line-height:1.8;
+}
+
+footer{
+    text-align:center;
+    padding:35px;
+    background:black;
+    color:#aaa;
 }
